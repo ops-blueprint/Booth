@@ -1,0 +1,18 @@
+# Built-in voices
+kokoro-onnx==0.6.1
+phonemizer-fork==3.3.2
+espeakng-loader==0.2.4
+onnxruntime==1.30.0
+numpy==2.4.6
+soundfile==0.14.0
+# App server
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+# Voice cloning + transcription (Apple Silicon)
+mlx==0.32.2
+mlx-audio==0.5.5
+transformers==5.17.0
+huggingface-hub==1.32.0
+# Listens back to cloned lines to catch mistakes
+faster-whisper==1.2.1
